@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: hello-service
+eureka:
+  client:
+    serviceUrl:
+#      defaultZone: http://peer1:1111/eureka/,http://peer2:1112/eureka/
+      defaultZone: http://peer1:1111/eureka/
+#指定服务的实例名
+#  instance:
+#    instance-id: ${spring.application.name}:${random.int}
+#    status-page-url: http://localhost:${server.port}/info
+#    health-check-url: http://localhost:${server.port}/health
+
+
+
+
+
